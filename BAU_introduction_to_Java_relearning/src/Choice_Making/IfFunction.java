@@ -17,7 +17,7 @@ public class IfFunction {
 		System.out.println("Bu bir yanlış bilgi.");
 	} //Uyarı: Bu fonksiyon hiçbir koşulda çalışmayacağından ölü koddur.
 	
-	System.out.println("------------------");
+	System.out.println("---------1---------");
 	
 	// Değişken ile örnek verelim
 	
@@ -30,7 +30,7 @@ public class IfFunction {
 		System.out.println("Müsait değil, daha sonra tekrar deneyin.");
 	}
 		
-	System.out.println("------------------");
+	System.out.println("---------2--------");
 	
 	/* Denklemlere girmeden önce denklem koşullarını öğrenelim.
 	 * 
@@ -50,12 +50,15 @@ public class IfFunction {
 		System.out.println("Tebrikler, kar ettiniz.");
 	}
 	else {
+		if (HomeBuyPrice == HomeSellPrice)
+			System.out.println("Eviniz tam değerinde satıldı.");
+		else
 		System.out.println("Üzgünüm, zarar ettiniz.");
-	}
+	}//Nested if else örneği
 	
 		
 	
-	System.out.println("------------------");
+	System.out.println("---------3---------");
 	
 	
 	byte x = 23;
@@ -68,13 +71,23 @@ public class IfFunction {
 	System.out.println("Burası her türlü yazılır.");
 	
 	
-	System.out.println("------------------");
+	System.out.println("---------4---------");
 	if (x!=y) //Karmaşıklığın önlenmesi ve kod okumanın kolaylaşması için parantez kullanımı tavsiye edilir.
 		System.out.println("Eğer denklem Doğru ise burası yazılır.");
 	else {
 		System.out.println("Eğer denklem Yanlış ise burası yazılır");}
 	System.out.println("Burası her türlü yazılır.");
 	
-	}
+	
 
-}
+
+	System.out.println("---------5---------");
+
+ // Inline If Fonksiyonu: Tek Satırda yazılabilen if/else fonksiyonudur.
+
+ // 				Koşul ? 			Doğruysa 					: 					Yanlışsa
+  
+ System.out.println( x==y ? "Eğer denklem Doğru ise burası yazılır." : "Eğer denklem Yanlış ise burası yazılır.");
+
+	} //MAIN methodunun sonu
+} //CLASS'ın sonu
