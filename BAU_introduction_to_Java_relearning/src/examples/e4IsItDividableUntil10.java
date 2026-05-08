@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class IsItDividableUntil10 {
+public class e4IsItDividableUntil10 {
 // Kullanıcıdan alınan sayının 10'ye kadar olan sayılara
 // bölünüp bölünemeyeceğine bakacağız.
 

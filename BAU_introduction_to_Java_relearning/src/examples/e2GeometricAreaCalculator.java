@@ -2,7 +2,7 @@ package examples;
 
 import java.util.Scanner;
 
-public class GeometricAreaCalculator {
+public class e2GeometricAreaCalculator {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

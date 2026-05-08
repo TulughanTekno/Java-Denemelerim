@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class IsItOddOrEven {
+public class e3IsItOddOrEven {
  public static void main(String[] args) {
      
     Scanner input = new Scanner(System.in); //Veri almak için Scanner oluşturduk

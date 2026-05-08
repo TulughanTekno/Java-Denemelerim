@@ -2,7 +2,7 @@ package examples;
 
 import java.util.Scanner;
 
-public class ifElseLadder_GradeCalculator {
+public class e1ifElseLadder_GradeCalculator {
 
 	public static void main(String[] args) {
 		// Bir değişkenin ismini bütün heryerde değiştirmek için ALT + SHIFT + R kombinasyonunu kullanabilirsiniz.
